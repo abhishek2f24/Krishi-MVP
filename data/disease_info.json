@@ -1,0 +1,373 @@
+{
+  "diseases": [
+    {
+      "id": "pepper_bacterial_spot",
+      "name": "Pepper Bacterial Spot",
+      "hindi_name": "मिर्च का जीवाणु धब्बा रोग",
+      "crop": "Pepper",
+      "scientific_name": "Xanthomonas campestris pv. vesicatoria",
+      "type": "Bacterial",
+      "severity_typical": "Moderate",
+      "symptoms": [
+        "Water-soaked dark lesions on leaves",
+        "Spots turn brown with yellow halo",
+        "Scab-like raised spots on fruits",
+        "Premature leaf and fruit drop"
+      ],
+      "favorable_conditions": "Warm (24-30°C), high humidity, rain splash, infected seeds",
+      "treatment": {
+        "immediate": "Remove infected plant parts. Avoid working in wet fields to prevent spread.",
+        "chemical": "Copper oxychloride 50% WP @ 3g/L or Streptomycin sulphate 90% + Tetracycline 10% @ 0.5g/L, spray every 7 days",
+        "organic": "Bordeaux mixture (1%) spray, or neem oil 5ml/L with 2ml liquid soap",
+        "prevention": "Use certified disease-free seeds, avoid overhead irrigation, crop rotation (2-3 years), remove crop debris"
+      },
+      "hindi_summary": "यह मिर्च का जीवाणु धब्बा रोग है। पत्तियों पर पानी जैसे धब्बे बनते हैं जो बाद में भूरे हो जाते हैं। कॉपर ऑक्सीक्लोराइड 3 ग्राम प्रति लीटर पानी में मिलाकर 7 दिन के अंतर पर छिड़काव करें। प्रभावित पत्तियां तुरंत हटाएं।",
+      "market_impact": "20-30% yield loss in severe cases",
+      "dataset_class": "Pepper__bell___Bacterial_spot"
+    },
+    {
+      "id": "pepper_healthy",
+      "name": "Healthy Pepper Plant",
+      "hindi_name": "स्वस्थ मिर्च का पौधा",
+      "crop": "Pepper",
+      "scientific_name": null,
+      "type": "Healthy",
+      "severity_typical": "None",
+      "symptoms": [],
+      "favorable_conditions": null,
+      "treatment": {
+        "immediate": "Your pepper plant looks healthy! Keep up the good work.",
+        "chemical": "No treatment needed. Continue preventive sprays if disease pressure is high nearby.",
+        "organic": "Regular neem oil spray (5ml/L) as preventive measure every 15 days.",
+        "prevention": "Maintain proper spacing, balanced fertilisation (NPK 120:60:60 kg/ha), timely irrigation"
+      },
+      "hindi_summary": "आपकी मिर्च का पौधा स्वस्थ दिख रहा है! सही देखभाल जारी रखें। हर 15 दिन में नीम तेल का छिड़काव करते रहें ताकि रोग न लगे।",
+      "market_impact": "None — plant is healthy",
+      "dataset_class": "Pepper__bell___healthy"
+    },
+    {
+      "id": "potato_early_blight",
+      "name": "Potato Early Blight",
+      "hindi_name": "आलू का अगेती झुलसा",
+      "crop": "Potato",
+      "scientific_name": "Alternaria solani",
+      "type": "Fungal",
+      "severity_typical": "Moderate",
+      "symptoms": [
+        "Dark brown spots with concentric rings (target-board pattern)",
+        "Yellow halo surrounds the spots",
+        "Lower/older leaves affected first",
+        "Premature defoliation in severe cases"
+      ],
+      "favorable_conditions": "Warm (24-29°C), high humidity, alternating wet-dry conditions, nutrient-stressed plants",
+      "treatment": {
+        "immediate": "Remove and destroy infected lower leaves immediately. Burn or bury them — do not compost.",
+        "chemical": "Mancozeb 75% WP @ 2g/L or Chlorothalonil 75% WP @ 2g/L, spray every 7-10 days. Alternate fungicides to avoid resistance.",
+        "organic": "Neem oil 5ml/L + 2ml liquid soap spray. Copper-based fungicide (Bordeaux mixture 1%) also works.",
+        "prevention": "Use certified disease-free seed tubers, proper plant spacing (45x20cm), balanced fertilisation, avoid overhead irrigation, 3-year crop rotation"
+      },
+      "hindi_summary": "यह आलू का अगेती झुलसा रोग है। पत्तियों पर गोल भूरे धब्बे जो बीच से हल्के होते हैं, दिखते हैं। प्रभावित पत्तियां तुरंत हटाएं। मैंकोजेब 2 ग्राम प्रति लीटर पानी में मिलाकर 7-10 दिन के अंतर पर छिड़काव करें।",
+      "market_impact": "10-30% yield loss if unmanaged",
+      "dataset_class": "Potato___Early_blight"
+    },
+    {
+      "id": "potato_late_blight",
+      "name": "Potato Late Blight",
+      "hindi_name": "आलू का पछेती झुलसा",
+      "crop": "Potato",
+      "scientific_name": "Phytophthora infestans",
+      "type": "Oomycete (Water Mold)",
+      "severity_typical": "Severe — act immediately",
+      "symptoms": [
+        "Water-soaked pale green to dark brown lesions, often at leaf tips/margins",
+        "White fuzzy mold on underside of leaves in humid conditions",
+        "Dark brown lesions on stems",
+        "Tubers show reddish-brown rot extending inward",
+        "Foul smell in advanced cases"
+      ],
+      "favorable_conditions": "Cool (10-20°C), high humidity (>90%), foggy conditions, rain. Spreads rapidly.",
+      "treatment": {
+        "immediate": "URGENT: Remove all infected plants/parts. Stop overhead irrigation immediately. Ensure good air circulation.",
+        "chemical": "Metalaxyl + Mancozeb 72% WP @ 2.5g/L or Cymoxanil + Mancozeb 72% WP @ 3g/L, spray every 5-7 days. Or Dimethomorph 50% WP @ 1g/L.",
+        "organic": "Copper oxychloride 3g/L as preventive. Phosphorous acid-based products. Bordeaux mixture 1%. Limited efficacy once disease is established.",
+        "prevention": "Use resistant varieties (Kufri Jyoti, Kufri Bahar), plant certified tubers, hilling, avoid wetting foliage, apply fungicide before wet weather forecast"
+      },
+      "hindi_summary": "यह आलू का पछेती झुलसा रोग है — यह बहुत तेजी से फैलता है! पत्तियों पर पानी जैसे काले-भूरे धब्बे और नीचे सफेद फफूंद दिखती है। तुरंत Metalaxyl + Mancozeb 2.5 ग्राम प्रति लीटर पानी में मिलाकर छिड़काव करें। ऊपर से पानी देना बंद करें।",
+      "market_impact": "Up to 100% crop loss if not controlled within 5-7 days",
+      "dataset_class": "Potato___Late_blight"
+    },
+    {
+      "id": "potato_healthy",
+      "name": "Healthy Potato Plant",
+      "hindi_name": "स्वस्थ आलू का पौधा",
+      "crop": "Potato",
+      "scientific_name": null,
+      "type": "Healthy",
+      "severity_typical": "None",
+      "symptoms": [],
+      "favorable_conditions": null,
+      "treatment": {
+        "immediate": "Your potato plant looks healthy! Continue regular monitoring.",
+        "chemical": "Apply preventive fungicide (Mancozeb 2g/L) before wet season as a precaution.",
+        "organic": "Neem oil spray every 15 days as preventive measure.",
+        "prevention": "Earthing up at 30 and 60 days, balanced fertilisation (NPK 150:60:100 kg/ha), proper drainage"
+      },
+      "hindi_summary": "आपका आलू का पौधा स्वस्थ दिख रहा है! बारिश के मौसम में सावधानी रखें और हर 15 दिन में मैंकोजेब का छिड़काव करें।",
+      "market_impact": "None — plant is healthy",
+      "dataset_class": "Potato___healthy"
+    },
+    {
+      "id": "tomato_bacterial_spot",
+      "name": "Tomato Bacterial Spot",
+      "hindi_name": "टमाटर का जीवाणु धब्बा रोग",
+      "crop": "Tomato",
+      "scientific_name": "Xanthomonas campestris pv. vesicatoria",
+      "type": "Bacterial",
+      "severity_typical": "Moderate",
+      "symptoms": [
+        "Small water-soaked spots on leaves, turning dark brown with yellow halo",
+        "Spots may have greasy appearance",
+        "Raised scab-like lesions on fruits",
+        "Defoliation in severe cases"
+      ],
+      "favorable_conditions": "Warm humid weather, rain splash, infected transplants, temperatures 25-30°C",
+      "treatment": {
+        "immediate": "Remove severely infected plants/leaves. Avoid working in wet crop.",
+        "chemical": "Copper hydroxide 77% WP @ 2g/L or Copper oxychloride 50% WP @ 3g/L. Can combine with Mancozeb. Spray every 7 days.",
+        "organic": "Bordeaux mixture (1%) spray. Streptomycin sulphate (200ppm) for early stages.",
+        "prevention": "Use disease-free certified seeds/transplants, avoid overhead irrigation, crop rotation, remove crop debris after harvest"
+      },
+      "hindi_summary": "यह टमाटर का जीवाणु धब्बा रोग है। पत्तियों पर छोटे पानी जैसे धब्बे बनते हैं। कॉपर ऑक्सीक्लोराइड 3 ग्राम प्रति लीटर पानी में मिलाकर 7 दिन के अंतर पर छिड़काव करें।",
+      "market_impact": "15-25% yield loss",
+      "dataset_class": "Tomato_Bacterial_spot"
+    },
+    {
+      "id": "tomato_early_blight",
+      "name": "Tomato Early Blight",
+      "hindi_name": "टमाटर का अगेती झुलसा",
+      "crop": "Tomato",
+      "scientific_name": "Alternaria solani",
+      "type": "Fungal",
+      "severity_typical": "Moderate",
+      "symptoms": [
+        "Dark brown spots with concentric rings on lower leaves",
+        "Yellow halo around each spot",
+        "Spots enlarge and merge, causing leaf death",
+        "Stem lesions possible (collar rot in seedlings)"
+      ],
+      "favorable_conditions": "Warm (24-29°C), high humidity, nutrient-stressed plants, wet leaf surfaces",
+      "treatment": {
+        "immediate": "Remove and destroy all lower infected leaves. Do not compost.",
+        "chemical": "Mancozeb 75% WP @ 2g/L or Azoxystrobin 23% SC @ 1ml/L, spray every 7-10 days. Rotate fungicide classes.",
+        "organic": "Neem oil 5ml/L + 2ml liquid soap. Trichoderma viride 5g/L as soil drench. Copper-based fungicide spray.",
+        "prevention": "Avoid wetting leaves, mulch soil, remove crop debris, crop rotation (avoid Solanaceae for 2 years), ensure adequate potassium nutrition"
+      },
+      "hindi_summary": "यह टमाटर का अगेती झुलसा रोग है। पत्तियों पर गोल भूरे धब्बे जो गोले जैसे दिखते हैं, बनते हैं। मैंकोजेब 2 ग्राम प्रति लीटर पानी में मिलाकर 7-10 दिन पर छिड़काव करें। प्रभावित पत्तियां तुरंत हटाएं।",
+      "market_impact": "30-50% yield loss if uncontrolled",
+      "dataset_class": "Tomato_Early_blight"
+    },
+    {
+      "id": "tomato_late_blight",
+      "name": "Tomato Late Blight",
+      "hindi_name": "टमाटर का पछेती झुलसा",
+      "crop": "Tomato",
+      "scientific_name": "Phytophthora infestans",
+      "type": "Oomycete",
+      "severity_typical": "Severe — act immediately",
+      "symptoms": [
+        "Large irregular water-soaked lesions on leaves",
+        "White fuzzy growth on underside of leaves",
+        "Brown-black lesions on stems",
+        "Firm brown rot on fruits",
+        "Rapid defoliation"
+      ],
+      "favorable_conditions": "Cool (15-20°C), high humidity, foggy nights, rain. Spreads extremely fast.",
+      "treatment": {
+        "immediate": "URGENT: Remove all infected plant parts immediately. Burn them. Stop overhead watering.",
+        "chemical": "Cymoxanil + Mancozeb 72% WP @ 3g/L or Metalaxyl 8% + Mancozeb 64% WP @ 2.5g/L, spray every 5-7 days.",
+        "organic": "Copper oxychloride 3g/L. Potassium bicarbonate spray. Limited efficacy on established disease.",
+        "prevention": "Stake plants for air circulation, avoid wetting leaves, use resistant varieties, apply protective fungicide before rainy season"
+      },
+      "hindi_summary": "यह टमाटर का पछेती झुलसा रोग है — बहुत खतरनाक! पत्तियों पर बड़े काले धब्बे और नीचे सफेद फफूंद दिखती है। तुरंत Cymoxanil + Mancozeb 3 ग्राम प्रति लीटर पानी में मिलाकर छिड़काव करें। ऊपर से पानी बंद करें।",
+      "market_impact": "Up to 80-100% crop loss in 1-2 weeks if untreated",
+      "dataset_class": "Tomato_Late_blight"
+    },
+    {
+      "id": "tomato_leaf_mold",
+      "name": "Tomato Leaf Mold",
+      "hindi_name": "टमाटर का पत्ती फफूंद रोग",
+      "crop": "Tomato",
+      "scientific_name": "Passalora fulva (formerly Cladosporium fulvum)",
+      "type": "Fungal",
+      "severity_typical": "Moderate",
+      "symptoms": [
+        "Pale green/yellow patches on upper leaf surface",
+        "Olive-green to greyish-brown velvety mold on lower leaf surface",
+        "Affected leaves curl, wither and fall",
+        "Common in greenhouse/protected cultivation"
+      ],
+      "favorable_conditions": "High humidity (>85%), poor air circulation, temperatures 22-24°C. Common in poly-houses.",
+      "treatment": {
+        "immediate": "Improve ventilation immediately. Remove heavily infected leaves.",
+        "chemical": "Mancozeb 75% WP @ 2g/L or Chlorothalonil 75% WP @ 2g/L or Propiconazole 25% EC @ 1ml/L, spray every 7 days.",
+        "organic": "Improve air circulation, reduce humidity. Neem oil 5ml/L spray on lower leaf surface. Copper-based fungicide.",
+        "prevention": "Stake/prune plants for air flow, avoid overhead irrigation, reduce humidity in poly-house, remove old leaves at bottom"
+      },
+      "hindi_summary": "यह टमाटर का पत्ती फफूंद रोग है। पत्तियों के नीचे जैतून रंग की फफूंद दिखती है। हवा का संचार बढ़ाएं और मैंकोजेब 2 ग्राम प्रति लीटर पानी का छिड़काव करें। पॉलीहाउस में नमी कम करें।",
+      "market_impact": "20-40% yield loss in protected cultivation",
+      "dataset_class": "Tomato_Leaf_Mold"
+    },
+    {
+      "id": "tomato_septoria_leaf_spot",
+      "name": "Tomato Septoria Leaf Spot",
+      "hindi_name": "टमाटर का सेप्टोरिया पत्ती धब्बा",
+      "crop": "Tomato",
+      "scientific_name": "Septoria lycopersici",
+      "type": "Fungal",
+      "severity_typical": "Moderate",
+      "symptoms": [
+        "Numerous small circular spots (3-5mm) with dark brown border and lighter center",
+        "Tiny black dots (pycnidia) visible in spot centers",
+        "Lower leaves affected first, moves upward",
+        "Severe defoliation without fruit rot"
+      ],
+      "favorable_conditions": "Warm (20-25°C), wet weather, heavy dew, splashing rain, poor air circulation",
+      "treatment": {
+        "immediate": "Remove and destroy lower infected leaves. Avoid overhead watering.",
+        "chemical": "Mancozeb 75% WP @ 2g/L or Chlorothalonil 75% WP @ 2g/L or Copper oxychloride 3g/L, spray every 7 days. Start at first sign of disease.",
+        "organic": "Neem oil 5ml/L spray. Copper-based Bordeaux mixture 1%. Remove infected leaves manually.",
+        "prevention": "Mulch to prevent soil splash, stake plants, weed control, 3-year crop rotation away from tomato/potato"
+      },
+      "hindi_summary": "यह टमाटर का सेप्टोरिया पत्ती धब्बा रोग है। पत्तियों पर छोटे-छोटे गोल धब्बे, जिनका बीच हल्का और किनारा गहरा होता है, दिखते हैं। मैंकोजेब 2 ग्राम प्रति लीटर पानी में मिलाकर 7 दिन पर छिड़काव करें।",
+      "market_impact": "25-50% yield loss due to defoliation reducing photosynthesis",
+      "dataset_class": "Tomato_Septoria_leaf_spot"
+    },
+    {
+      "id": "tomato_spider_mites",
+      "name": "Tomato Spider Mites (Two-Spotted)",
+      "hindi_name": "टमाटर का मकड़ी कीट",
+      "crop": "Tomato",
+      "scientific_name": "Tetranychus urticae",
+      "type": "Pest (Mite)",
+      "severity_typical": "Moderate to Severe",
+      "symptoms": [
+        "Tiny yellow/white stippling dots on upper leaf surface",
+        "Bronze or reddish appearance on leaves",
+        "Fine silky webbing on underside of leaves and between plants",
+        "Leaves become yellow, dry and fall",
+        "Tiny moving dots visible on leaf underside (mites)"
+      ],
+      "favorable_conditions": "Hot dry weather (>30°C), low humidity, drought-stressed plants, dusty conditions. Population explodes in summer.",
+      "treatment": {
+        "immediate": "Spray water forcefully on underside of leaves to dislodge mites. Isolate severely infested plants.",
+        "chemical": "Abamectin 1.8% EC @ 0.5ml/L or Spiromesifen 22.9% SC @ 1ml/L or Dicofol 18.5% EC @ 2ml/L. Spray underside of leaves. Rotate miticides.",
+        "organic": "Neem oil 5ml/L + 2ml liquid soap (target leaf undersides). Soap solution spray (2%). Release predatory mites (Phytoseiulus persimilis) if available.",
+        "prevention": "Avoid dusty conditions (wet paths), maintain soil moisture, avoid excessive nitrogen, remove weeds, monitor weekly"
+      },
+      "hindi_summary": "यह टमाटर में मकड़ी कीट (Spider Mites) का प्रकोप है। पत्तियों के नीचे महीन जाला और पीले-सफेद धब्बे दिखते हैं। Abamectin 0.5 ml प्रति लीटर पानी में मिलाकर पत्तियों के नीचे छिड़काव करें। नीम तेल 5 ml प्रति लीटर पानी भी उपयोगी है।",
+      "market_impact": "20-50% yield loss in hot dry season",
+      "dataset_class": "Tomato_Spider_mites_Two_spotted_spider_mite"
+    },
+    {
+      "id": "tomato_target_spot",
+      "name": "Tomato Target Spot",
+      "hindi_name": "टमाटर का लक्ष्य धब्बा रोग",
+      "crop": "Tomato",
+      "scientific_name": "Corynespora cassiicola",
+      "type": "Fungal",
+      "severity_typical": "Moderate",
+      "symptoms": [
+        "Brown circular spots with concentric rings (like a target/bullseye)",
+        "Spots have yellow halo",
+        "Affects leaves, stems and fruits",
+        "Fruit lesions are sunken, dark brown"
+      ],
+      "favorable_conditions": "Warm (24-30°C), high humidity, poor air circulation, periods of wetness",
+      "treatment": {
+        "immediate": "Remove infected leaves and fruits. Improve plant spacing for air circulation.",
+        "chemical": "Azoxystrobin 23% SC @ 1ml/L or Tebuconazole 25.9% EC @ 1ml/L or Mancozeb 75% WP @ 2g/L, spray every 7 days.",
+        "organic": "Neem oil 5ml/L + copper oxychloride 3g/L combination spray. Bordeaux mixture 1%.",
+        "prevention": "Stake plants, prune lower leaves, avoid overhead irrigation, rotate crops"
+      },
+      "hindi_summary": "यह टमाटर का लक्ष्य धब्बा रोग है। पत्तियों पर निशाने जैसे गोल धब्बे दिखते हैं। Azoxystrobin 1 ml प्रति लीटर पानी में मिलाकर 7 दिन पर छिड़काव करें। पत्तियों के बीच हवा आने दें।",
+      "market_impact": "10-20% yield loss",
+      "dataset_class": "Tomato__Target_Spot"
+    },
+    {
+      "id": "tomato_yellow_leaf_curl_virus",
+      "name": "Tomato Yellow Leaf Curl Virus",
+      "hindi_name": "टमाटर का पीला पत्ती मोड़ विषाणु रोग",
+      "crop": "Tomato",
+      "scientific_name": "Tomato Yellow Leaf Curl Virus (TYLCV) — transmitted by whitefly",
+      "type": "Viral (Whitefly-transmitted)",
+      "severity_typical": "Severe — no cure once infected",
+      "symptoms": [
+        "Leaves curl upward and become cup-shaped",
+        "Leaves turn yellow (chlorotic) with green veins",
+        "Stunted plant growth",
+        "Flower drop, very little fruit set",
+        "Whiteflies (tiny white insects) visible on underside of leaves"
+      ],
+      "favorable_conditions": "Hot dry weather, high whitefly population, susceptible varieties, lack of resistant cultivars",
+      "treatment": {
+        "immediate": "There is NO cure for infected plants. Remove severely infected plants to stop virus spread. Control whitefly vector URGENTLY.",
+        "chemical": "Control whiteflies: Imidacloprid 17.8% SL @ 0.5ml/L or Thiamethoxam 25% WG @ 0.3g/L as soil drench or spray. Use yellow sticky traps.",
+        "organic": "Reflective silver mulch to repel whiteflies. Neem oil 5ml/L spray to control whiteflies. Release Encarsia formosa (parasitic wasp) if available.",
+        "prevention": "Plant resistant varieties (Arka Rakshak, Arka Samrat, or hybrid varieties marked TYLCV-resistant), use insect-proof net (40-50 mesh) in nursery, apply Imidacloprid to transplants before planting, use reflective mulch"
+      },
+      "hindi_summary": "यह टमाटर का पीला पत्ती मोड़ वायरस रोग है जो सफेद मक्खी (Whitefly) से फैलता है। इस रोग का कोई इलाज नहीं है। सफेद मक्खी को Imidacloprid 0.5 ml प्रति लीटर पानी से तुरंत नियंत्रित करें। अगली फसल में प्रतिरोधी किस्म लगाएं।",
+      "market_impact": "50-100% yield loss depending on infection stage",
+      "dataset_class": "Tomato__Tomato_YellowLeaf__Curl_Virus"
+    },
+    {
+      "id": "tomato_mosaic_virus",
+      "name": "Tomato Mosaic Virus",
+      "hindi_name": "टमाटर का मोजेक विषाणु रोग",
+      "crop": "Tomato",
+      "scientific_name": "Tomato mosaic virus (ToMV) / Tobacco mosaic virus (TMV)",
+      "type": "Viral (Contact-transmitted)",
+      "severity_typical": "Moderate to Severe",
+      "symptoms": [
+        "Mottled light/dark green mosaic pattern on leaves",
+        "Leaf distortion, curling and puckering",
+        "Leaves may become narrow (fernleaf symptom)",
+        "Stunted plant growth",
+        "Internal browning of fruits (chocolate fruit)"
+      ],
+      "favorable_conditions": "Spreads through infected hands, tools, sucking insects (aphids), contaminated soil. Very stable virus.",
+      "treatment": {
+        "immediate": "No cure available. Remove severely infected plants. Wash hands with soap before handling healthy plants. Disinfect tools with 10% bleach or 70% alcohol.",
+        "chemical": "Control aphid vectors: Dimethoate 30% EC @ 2ml/L or Imidacloprid 17.8% SL @ 0.5ml/L.",
+        "organic": "Neem oil 5ml/L to control aphids. Mineral oil spray can reduce aphid-transmitted spread. Remove infected plants promptly.",
+        "prevention": "Use ToMV-resistant varieties, treat seeds (dry heat 70°C for 2-3 days), avoid tobacco use near plants (TMV persists in cigarettes), disinfect tools, control aphids from seedling stage"
+      },
+      "hindi_summary": "यह टमाटर का मोजेक वायरस रोग है। पत्तियों पर हल्के-गहरे हरे रंग का मिश्रण दिखता है। इसका कोई इलाज नहीं है। प्रभावित पौधे हटाएं। औजार और हाथ साबुन से धोएं। अगली फसल में प्रतिरोधी किस्म लगाएं।",
+      "market_impact": "30-60% yield loss",
+      "dataset_class": "Tomato__Tomato_mosaic_virus"
+    },
+    {
+      "id": "tomato_healthy",
+      "name": "Healthy Tomato Plant",
+      "hindi_name": "स्वस्थ टमाटर का पौधा",
+      "crop": "Tomato",
+      "scientific_name": null,
+      "type": "Healthy",
+      "severity_typical": "None",
+      "symptoms": [],
+      "favorable_conditions": null,
+      "treatment": {
+        "immediate": "Your tomato plant looks healthy! Keep monitoring weekly.",
+        "chemical": "Apply preventive Mancozeb 2g/L spray every 15 days during wet weather as precaution.",
+        "organic": "Neem oil 5ml/L spray every 15 days to prevent fungal/pest issues. Trichoderma viride soil application.",
+        "prevention": "Stake plants for support, balanced fertilisation (NPK 120:60:80 kg/ha + micronutrients), regular irrigation, weed control"
+      },
+      "hindi_summary": "आपका टमाटर का पौधा स्वस्थ दिख रहा है! बारिश के समय हर 15 दिन में मैंकोजेब का छिड़काव करते रहें। सफेद मक्खी और मकड़ी कीट की निगरानी करते रहें।",
+      "market_impact": "None — plant is healthy",
+      "dataset_class": "Tomato_healthy"
+    }
+  ],
+  "general_advice": {
+    "hindi": "किसी भी रोग के लिए: (1) प्रभावित हिस्से तुरंत हटाएं (2) छिड़काव सुबह या शाम करें (3) सुरक्षा उपकरण पहनें (4) खाली पेट छिड़काव न करें",
+    "english": "General: (1) Remove affected parts immediately (2) Spray early morning or evening (3) Wear protective gear (4) Never spray on an empty stomach"
+  }
+}
